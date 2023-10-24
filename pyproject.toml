@@ -1,0 +1,15 @@
+[project]
+name = "YZLbot"
+version = "0.1.0"
+description = "阿绫的NoneBot重写版本"
+readme = "README.md"
+authors = ["Takeoff0518"]
+requires-python = ">=3.8, <4.0"
+
+[tool.nonebot]
+adapters = [
+    { name = "OneBot V11", module_name = "nonebot.adapters.onebot.v11" }
+]
+plugins = ["nonebot_plugin_petpet"]
+plugin_dirs = ["src/plugins"]
+builtin_plugins = []
